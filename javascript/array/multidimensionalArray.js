@@ -1,8 +1,9 @@
 //MULTIDIMENSIONAL ARRAY
 
-for(let row = 0; row <= 12; row++){
-    for(let col = 0; col <= 12; col++){
-        console.log(row * col);
+for(let row = 1; row <= 12; row++){
+    for(let col = 1; col <= 12; col++){
+        document.write(row * col + " ");
+        
     }
-    console.log("\n");
+    document.write("<br>");
 }
