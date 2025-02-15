@@ -1,3 +1,4 @@
+//USING THE FILL METHOD
 let arr = new Array(5);
 
 arr.fill(9);
