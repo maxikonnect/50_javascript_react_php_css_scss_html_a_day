@@ -19,3 +19,8 @@ for(let letter of uniq){
 console.log(totalstr);
 
 //for of example 3
+let arra = ["Araba", "Esi", "Joe"]
+
+for(let [index,value] of arra.entries()){
+    if(value.length === 3) console.log(value);
+}
