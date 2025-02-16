@@ -27,3 +27,11 @@ for(let letter of "mississippi") {
     }
 }
 console.log(frequency) // => {m: 1, i: 4, s: 4, p: 2}
+
+let text = "Na na na na na na na na Batman!";
+let wordSet = new Set(text.split(" "));
+let unique = [];
+for(let word of wordSet) {
+ unique.push(word);
+}
+console.log(unique) // => ["Na", "na", "Batman!"]
