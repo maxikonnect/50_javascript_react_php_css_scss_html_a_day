@@ -48,3 +48,9 @@ console.log(Math.log(8)/ Math.LN2);//3
 Math.LOG10E */
 console.log(Math.log(Math.E)/ Math.LN10);//0.43429448190325176
 console.log(Math.LOG10E);//0.4342944819032518
+
+/*Base 2 Logarithm of E 
+Math.LOG2E
+*/
+console.log(Math.log(Math.E)/ Math.LN2);//1.4426950408889634
+console.log(Math.LOG2E);//1.4426950408889634
