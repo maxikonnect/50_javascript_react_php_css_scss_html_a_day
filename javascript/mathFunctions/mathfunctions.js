@@ -100,4 +100,17 @@ console.log(Math.atanh(1))//Infinity
 console.log(Math.cbrt(27))//3
 console.log(Math.cbrt(-27));//-3
 
+/*count leading zeros 32 */
+console.log(Math.clz32(20));//27
+
+/* Base of natural logarithm raised to the power */
+console.log(Math.exp(2))
+
+
+/* Square root of a number */
+console.log(Math.sqrt(4))
+console.log(Math.sqrt(64))
+
+
+
 
