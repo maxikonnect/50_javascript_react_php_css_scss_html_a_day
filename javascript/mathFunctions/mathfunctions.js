@@ -58,4 +58,8 @@ console.log(Math.LOG2E);//1.4426950408889634
 /* Math.PI  */
 console.log(Math.PI);//3.141592653589793
 
-console.log(Math.SQRT1_2)
+/* SQUARE ROOT OF 1 / 2 */
+console.log(Math.SQRT1_2)//0.7071067811865476
+
+/* square root of 2 */
+console.log(Math.SQRT2.toFixed(5))//1.4142135623730951
