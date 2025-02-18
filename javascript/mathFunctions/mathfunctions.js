@@ -35,6 +35,16 @@ console.log(Math.E**(0.3 * 4) * 10000);//33201.16922736547
 console.log(5000 * Math.E ** (0.2 * 1));//6107.013790800849
 
 
-/* */
-console.log(Math.log(10)/Math.LN10);
-console.log(Math.log(100)/ Math.LN10);
+/* Math.LN10*/
+console.log(Math.log(10)/Math.LN10);//1
+console.log(Math.log(100)/ Math.LN10);//2
+
+/* Math.LN2 */
+console.log(Math.log(2)/Math.LN2);//1
+console.log(Math.log(8)/ Math.LN2);//3
+
+
+/*Base 10 Logarithm of E 
+Math.LOG10E */
+console.log(Math.log(Math.E)/ Math.LN10);//0.43429448190325176
+console.log(Math.LOG10E);//0.4342944819032518
