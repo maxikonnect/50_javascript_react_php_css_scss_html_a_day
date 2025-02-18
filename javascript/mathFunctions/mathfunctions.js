@@ -78,7 +78,12 @@ console.log(Math.asin(0) / Math.PI * 180);//0
 console.log(Math.asin(1) / Math.PI * 180);//90
 console.log(Math.asin(0.5) / Math.PI * 180);//30
 
-/*sin inverse of a number */
+/*tan inverse of a number */
 console.log(Math.atan(0) / Math.PI * 180);//0
-console.log(Math.atan(1) / Math.PI * 180);//90
-console.log(Math.atan(0.5) / Math.PI * 180);//30
+console.log(Math.atan(1) / Math.PI * 180);//45
+console.log(Math.atan(0.5) / Math.PI * 180);//26.565051177077986
+
+
+/*Inverse Hyperbolic  cosine */
+console.log(Math.acosh(0));//NaN
+console.log(Math.acosh(1))//0
