@@ -54,3 +54,8 @@ Math.LOG2E
 */
 console.log(Math.log(Math.E)/ Math.LN2);//1.4426950408889634
 console.log(Math.LOG2E);//1.4426950408889634
+
+/* Math.PI  */
+console.log(Math.PI);//3.141592653589793
+
+console.log(Math.SQRT1_2)
