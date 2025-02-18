@@ -112,5 +112,45 @@ console.log(Math.sqrt(4))
 console.log(Math.sqrt(64))
 
 
+/* Nearest single digit float representation of a number */
+console.log(Math.fround(4.678))//4.677999973297119
+
+/* Sign of a number */
+console.log(Math.sign(-10)) // -1
+console.log(Math.sign(10))// 1
+console.log(Math.sign(0))//0
+
+/*Hypothenuse of a number */
+console.log(Math.hypot(3, 4))// 5
+console.log(Math.hypot(6, 8))//10
+
+/*Random Number  Generates a random number between 0 and less than 1*/
+console.log(Math.random())
+
+/*Removing the fractional digits */
+console.log(Math.trunc(2.3456)) //2
+console.log(Math.trunc(7.4426)) //7
+
+/*Returns 32bit multiplication of two numbers */
+console.log(Math.imul(4, 7));//28
+console.log(Math.imul(8, 5));//40
+console.log(Math.imul(3, 9));//27
+
+/*Base logarithm of 10 */
+console.log(Math.log10(100)) //2
+console.log(Math.log10(10)) //1
+console.log(Math.log10(1000)) //3
+
+/*Base logarithm of 2 */
+console.log(Math.log2(8)) //3
+console.log(Math.log2(64)) //6
+console.log(Math.log2(32)) //5
+
+/* Maximum of a number */
+console.log(Math.max(1, 2, 7, 4, 5))//7
+
+
+/* Miniimum of a number */
+console.log(Math.min(1, 2, 7, 4, 5))//1
 
 
