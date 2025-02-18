@@ -153,4 +153,6 @@ console.log(Math.max(1, 2, 7, 4, 5))//7
 /* Miniimum of a number */
 console.log(Math.min(1, 2, 7, 4, 5))//1
 
+/*Returns Natural logarithm of 1 + x */
+console.log(Math.log1p(10))//2.3978952727983707
 
