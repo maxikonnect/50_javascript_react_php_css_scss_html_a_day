@@ -84,6 +84,16 @@ console.log(Math.atan(1) / Math.PI * 180);//45
 console.log(Math.atan(0.5) / Math.PI * 180);//26.565051177077986
 
 
-/*Inverse Hyperbolic  cosine */
+/*Inverse Hyperbolic  cosine of a number */
 console.log(Math.acosh(0));//NaN
 console.log(Math.acosh(1))//0
+
+/*Inverse Hyperbolic  sine  of a number*/
+console.log(Math.asinh(0));//0
+console.log(Math.asinh(1))//0.881373587019543
+
+/*Inverse Hyperbolic  tan  of a number*/
+console.log(Math.atanh(0));//0
+console.log(Math.atanh(1))//Infinity
+
+
