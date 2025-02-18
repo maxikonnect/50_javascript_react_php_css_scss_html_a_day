@@ -32,3 +32,9 @@ console.log(Math.ceil(0.6))// 1.0
 
 console.log(Math.E);//2.718281828459045
 console.log(Math.E**(0.3 * 4) * 10000);//33201.16922736547
+console.log(5000 * Math.E ** (0.2 * 1));//6107.013790800849
+
+
+/* */
+console.log(Math.log(10)/Math.LN10);
+console.log(Math.log(100)/ Math.LN10);
