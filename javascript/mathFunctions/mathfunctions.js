@@ -62,4 +62,7 @@ console.log(Math.PI);//3.141592653589793
 console.log(Math.SQRT1_2)//0.7071067811865476
 
 /* square root of 2 */
-console.log(Math.SQRT2.toFixed(5))//1.4142135623730951
+console.log(Math.SQRT2)//1.4142135623730951
+
+/*Absolute value of a number */
+console.log(Math.abs(-6));
