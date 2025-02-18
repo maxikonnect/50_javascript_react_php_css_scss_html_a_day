@@ -71,4 +71,14 @@ console.log(Math.abs(-7));//7
 /*cos inverse of a number */
 console.log(Math.acos(0) / Math.PI * 180);//90
 console.log(Math.acos(1) / Math.PI * 180);//0
-console.log(Math.acos(0.5) / Math.PI * 180);
+console.log(Math.acos(0.5) / Math.PI * 180);//60
+
+/*sin inverse of a number */
+console.log(Math.asin(0) / Math.PI * 180);//0
+console.log(Math.asin(1) / Math.PI * 180);//90
+console.log(Math.asin(0.5) / Math.PI * 180);//30
+
+/*sin inverse of a number */
+console.log(Math.atan(0) / Math.PI * 180);//0
+console.log(Math.atan(1) / Math.PI * 180);//90
+console.log(Math.atan(0.5) / Math.PI * 180);//30
