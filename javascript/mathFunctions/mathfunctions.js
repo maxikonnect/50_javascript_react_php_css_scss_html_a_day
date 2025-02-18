@@ -96,4 +96,8 @@ console.log(Math.asinh(1))//0.881373587019543
 console.log(Math.atanh(0));//0
 console.log(Math.atanh(1))//Infinity
 
+/* Cubic root of a number */
+console.log(Math.cbrt(27))//3
+console.log(Math.cbrt(-27));//-3
+
 
