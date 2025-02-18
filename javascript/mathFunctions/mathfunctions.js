@@ -65,4 +65,10 @@ console.log(Math.SQRT1_2)//0.7071067811865476
 console.log(Math.SQRT2)//1.4142135623730951
 
 /*Absolute value of a number */
-console.log(Math.abs(-6));
+console.log(Math.abs(-6));//6
+console.log(Math.abs(-7));//7
+
+/*cos inverse of a number */
+console.log(Math.acos(0) / Math.PI * 180);//90
+console.log(Math.acos(1) / Math.PI * 180);//0
+console.log(Math.acos(0.5) / Math.PI * 180);
