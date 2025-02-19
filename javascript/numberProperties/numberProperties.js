@@ -55,4 +55,16 @@ console.log(isNaN([1, 2, 3]));//true
 console.log(isNaN([1]))//false
 
 
+/* Number.isInteger */
+console.log(Number.isInteger(0))//true
+console.log(Number.isInteger(1))//true
+console.log(Number.isInteger(0.1))//false
+console.log(Number.isInteger(Math.PI))//false
+console.log(Number.isInteger(NaN))//false
+console.log(Number.isInteger(Infinity))//false
+console.log(Number.isInteger("10"))//false
+console.log(Number.isInteger(true))//false
+console.log(Number.isInteger(false))//false
+console.log(Number.isInteger(5.0))//true
+
 
