@@ -40,5 +40,19 @@ console.log(isFinite(910))//true
 console.log(isFinite(null));//true
 console.log(isFinite("0"))//true
 
+/* isNaN  */
+
+console.log(isNaN(null)) //false
+console.log(isNaN(NaN))//true
+console.log(isNaN(undefined));//true
+console.log(isNaN(37))//false
+console.log(isNaN("37"))//false
+console.log(isNaN("37.37"))//false
+console.log(isNaN(""))//false "" converted to 0
+console.log(isNaN(new Date()))//false
+console.log(isNaN([]))//false
+console.log(isNaN([1, 2, 3]));//true
+console.log(isNaN([1]))//false
+
 
 
