@@ -1,3 +1,10 @@
+function thingsToDo(){
+    console.log("Wake Up");
+    setTimeout(() => console.log("Dress Up"), 2000);
+    console.log("brush teeth");
+};
+thingsToDo();
+
 function orderCoffee(){
     return new Promise((resolve, reject)=>{
         let rating = Math.floor(Math.random() * 10);
