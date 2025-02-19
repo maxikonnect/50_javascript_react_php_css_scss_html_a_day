@@ -24,3 +24,9 @@ console.log(parseInt(15.99, 10))//15
 console.log(parseInt(-15.1, 10))//-15
 
 
+/*PARSEFLOAT */
+console.log(parseFloat(3.14)); //3.14
+console.log(parseFloat("3.14"));//3.14
+console.log(parseFloat("  3.14  "));//3.14
+console.log(parseFloat("3.14some non-digit"));//3.14
+console.log(parseFloat("FF2"))//NaN
