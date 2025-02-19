@@ -35,3 +35,20 @@ m.set(m, undefined); // Map the map itself to the value undefined.
 m.has(m) // => true: m is a key in itself
 m.get(m) // => undefined: same value we'd get if m wasn't a key
 
+let m = new Map([["x", 1], ["y", 2]]);
+[...m] // => [["x", 1], ["y", 2]]
+for(let [key, value] of m) {
+ // On the first iteration, key will be "x" and value will be 1
+ // On the second iteration, key will be "y" and value will be 2
+}
+
+
+[...m.keys()] // => ["x", "y"]: just the keys
+[...m.values()] // => [1, 2]: just the values
+[...m.entries()] // => [["x", 1], ["y", 2]]: same as [...m]
+
+m.forEach((value, key) => { // note value, key NOT key, value
+    // On the first invocation, value will be 1 and key will be "x"
+    // On the second invocation, value will be 2 and key will be "y"
+   });
+   
