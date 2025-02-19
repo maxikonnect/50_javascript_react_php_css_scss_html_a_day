@@ -67,4 +67,16 @@ console.log(Number.isInteger(true))//false
 console.log(Number.isInteger(false))//false
 console.log(Number.isInteger(5.0))//true
 
+/* isSafeInteger */
+console.log(isSafeInteger(3))//true
+console.log(isSafeInteger(2 ** 53))//false
+console.log(isSafeInteger(2 ** 53 - 1))//true
+console.log(isSafeInteger(NaN))//false
+console.log(isSafeInteger("3"))//false
+console.log(isSafeInteger(3.1))//false
+console.log(isSafeInteger(3.0))//true
+
+console.log(MIN_SAFE_INTEGER);//9007199254740991
+
+
 
