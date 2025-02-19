@@ -19,14 +19,26 @@ console.log(parseInt("12", 13))//15
 console.log(parseInt("123_456"));//123
 console.log(parseInt(null, 36));//1112745 in base 36
 console.log(parseInt(undefined, 36))//86464843759093 in base 36
-
 console.log(parseInt(15.99, 10))//15
 console.log(parseInt(-15.1, 10))//-15
 
 
-/*PARSEFLOAT */
+/* PARSEFLOAT */
 console.log(parseFloat(3.14)); //3.14
 console.log(parseFloat("3.14"));//3.14
 console.log(parseFloat("  3.14  "));//3.14
 console.log(parseFloat("3.14some non-digit"));//3.14
 console.log(parseFloat("FF2"))//NaN
+
+/* NUMBER.ISFINITE */
+
+console.log(isFinite(Infinity));//false
+console.log(isFinite(isNaN));//false
+console.log(isFinite(-Infinity));//false
+console.log(isFinite(0))//true
+console.log(isFinite(910))//true
+console.log(isFinite(null));//true
+console.log(isFinite("0"))//true
+
+
+
