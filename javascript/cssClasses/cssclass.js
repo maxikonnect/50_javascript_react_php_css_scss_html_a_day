@@ -1,3 +1,4 @@
+/* SETTING CSS AT */
 document.addEventListener("DOMContentLoaded", function(){
     const button1 = document.getElementById("button1");
     const button2 = document.getElementById("button2");
@@ -11,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function(){
         button1.style.cursor = "pointer";
         button1.style.color = "white";
 
+        /*Copy to another id */
         button2.setAttribute("style", button1.getAttribute("style"))
     }
 

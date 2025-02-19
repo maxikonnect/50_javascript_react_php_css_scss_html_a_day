@@ -17,3 +17,10 @@ console.log(r.includes(2));//true
 console.log(r.includes(4));//false
 console.log(r.toString());//(1...3)
 console.log([...r]);//[1, 2, 3]
+
+
+/* more class examples */
+
+class employee{
+    
+}
