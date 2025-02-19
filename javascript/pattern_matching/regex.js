@@ -54,3 +54,11 @@ console.log(str2.split(" "));//['my', 'name', 'is', 'luke']
 const htmlTag = /<([^>]+)>/; // < followed by one or more non->, followed by >
 "Testing<br/>1,2,3".split(htmlTag) // => ["Testing", "br/", "1,2,3"]
 "123,456,789".split(",") // => ["123", "456", "789"]
+
+
+/* REGEXP */
+// Find all five-digit numbers in a string. Note the double \\ in this case.
+let zipcode = new RegExp("\\d{5}", "g");
+console.log(zipcode.test("12345"));//true
+let exactMatch = /JavaScript/;
+let caseInsensitive = new RegExp(exactMatch, "i");
