@@ -1,27 +1,56 @@
-import {reactLogo} from './assets/react.svg'
-function App(){
-  return (
-    <div>
-      <header>
-        <img src={reactLogo} width="100px" alt="logo pix" />
-      </header>
-      <main>
-        <h1>React Practice</h1>
-        <ul>
-          <li>React is fun  again</li>
+import reactLogo from './assets/react.svg'
+import { createRoot } from "react-dom/client"
 
-          <li>React is easy to do</li>
-          <li>React is fun</li>
-        </ul>
-      </main>
-      <footer>
-        <p>2020. All rights reserved</p>
-      </footer>
-    </div>
-  )
+
+
+function Header() {
+    return (
+        <header className="header">
+            <img src={reactLogo} className="nav-logo" alt="React logo" />
+            <nav>
+                <ul className="nav-list">
+                    <li className="nav-list-item">Pricing</li>
+                    <li className="nav-list-item">About</li>
+                    <li className="nav-list-item">Contact</li>
+                </ul>
+            </nav>
+        </header>
+    )
 }
 
+function MainContent() {
+    return (
+        <main className="content">
+            <h1>Reason I am excited to learn React</h1>
+            <ol>
+                <li>React is a popular library, so I will be able to fit in with all the coolest devs out there! 😎</li>
+                <li>I am more likely to get a job as a front end developer if I know React</li>
+            </ol>
+        </main>
+    )
+}
+
+function Footer() {
+    return (
+        <footer className="footer">
+            <small>© 2024 Ziroll development. All rights reserved.</small>
+        </footer>
+    )
+}
+
+function App() {
+    return (
+        <>
+            <Header />
+            <MainContent />
+            <Footer />
+        </>
+    )
+}
+
+
 export default App;
+
 /* import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
