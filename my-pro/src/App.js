@@ -1,7 +1,22 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header"
+import MainContent from "./components/MainContent"
+import Footer from "./components/Footer"
 
-function App() {
+export default function App(){
+  return(
+    <>
+      <Header />
+      <MainContent />
+      <Footer />
+    </>
+    
+  )
+}
+
+
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -15,7 +30,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React Today
         </a>
       </header>
     </div>
@@ -23,3 +38,5 @@ function App() {
 }
 
 export default App;
+
+*/

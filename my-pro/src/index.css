@@ -187,6 +187,7 @@ template {
   display: none;
 }
 
+/*footer */
 :root {
   /* Colors */
   --color-primary: #023448;
@@ -285,18 +286,15 @@ template {
   text-transform: capitalize;
   color: var(--color-black);
 }
-
 *::selection {
   background-color: var(--color-black);
   color: var(--color-yellow);
 }
-
 *::-webkit-scrollbar {
   height: 0.5rem;
   width: 1rem;
   background-color: transparent;
 }
-
 *::-webkit-scrollbar-thumb {
   background-color: var(--color-yellow);
 }
