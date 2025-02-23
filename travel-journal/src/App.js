@@ -1,5 +1,6 @@
 export default function App(){
   const date = new Date().getHours();
+  const now = new Date();
   let timeOfDay = "";
 
   if(date < 12){
@@ -16,6 +17,7 @@ export default function App(){
     <>
       <h1>Good {timeOfDay}</h1>
       <h1>{date}</h1>
+      <p>{now.getFullYear()}</p>
     </>
   )
 }
