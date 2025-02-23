@@ -4,10 +4,30 @@ export default function App(){
 
   return (
     <main>
-      <Contact />
-      <Contact />
-      <Contact />
-      <Contact />
+      <Contact 
+      img= {require("./images/pic1.jpg")}
+      name="Makaveli"
+      phone = "+233552343560"
+      email = "ghs@gmail.com"
+      />
+      <Contact 
+      img= {require("./images/pic2.jpg")}
+      name="Ansah Paul"
+      phone = "+233548136366"
+      email = "tribillio@gmail.com"
+      />
+      <Contact 
+      img= {require("./images/pic3.jpg")}
+      name="Michael"
+      phone = "+233554324897"
+      email = "pako@gmail.com"
+      />
+      <Contact 
+      img= {require("./images/pic4.jpg")}
+      name="Michael"
+      phone = "+233554324897"
+      email = "pako@gmail.com"
+      />
     </main>
   )
 }
