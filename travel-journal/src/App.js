@@ -1,3 +1,23 @@
+import Contact from "./Contact"
+
+export default function App(){
+
+  return (
+    <main>
+      <Contact />
+      <Contact />
+      <Contact />
+      <Contact />
+    </main>
+  )
+}
+
+
+
+
+
+
+/* 
 export default function App(){
   const date = new Date().getHours();
   const now = new Date();
@@ -21,3 +41,5 @@ export default function App(){
     </>
   )
 }
+
+*/
